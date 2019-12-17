@@ -37,6 +37,7 @@ objects:
       contextDir: docker
       git:
         uri: ${GITURI}
+        ref: "build-fixes-1"
       type: Git
     strategy:
       dockerStrategy:
