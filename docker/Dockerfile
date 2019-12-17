@@ -1,4 +1,4 @@
-FROM centos:7
+FROM ruby:2.5
 
 MAINTAINER Ed Seymour <eseymour@redhat.com>
 
