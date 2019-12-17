@@ -14,7 +14,7 @@ parameters:
 - name: RSYNC_IMAGE
   displayName: Rsync Image Name 
   description: Name of Image to use for running rsync process
-  value: docker-registry.default.svc:5000/openshift/rsync
+  value: docker-registry.default.svc:5000/3scale-stage/rsync
   required: true
 objects:
 - apiVersion: batch/v1

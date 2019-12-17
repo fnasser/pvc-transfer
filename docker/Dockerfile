@@ -2,6 +2,8 @@ FROM centos:7
 
 MAINTAINER Ed Seymour <eseymour@redhat.com>
 
+USER root
+
 RUN yum install rsync -y && yum clean all -y 
 
 VOLUME /srcd
